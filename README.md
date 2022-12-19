@@ -1,8 +1,6 @@
 # Bluetooth-LE-BBQ-ProbeE
 Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor
 
-Device: BBQ ProbeE 26012
-
 Description Service: 00001800-0000-1000-8000-00805f9b34fb
   Device Name Characteristic:  00002a00-0000-1000-8000-00805f9b34fb
   Read Property: BBQ ProbeE 26012
