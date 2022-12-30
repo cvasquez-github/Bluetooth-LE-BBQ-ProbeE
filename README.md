@@ -1,5 +1,6 @@
 # Bluetooth-LE-BBQ-ProbeE
-Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor
+Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor.
+Compatible with FMG SH253B Bluetooth BBQ Thermometer: https://www.fmg-tech.com/pid18124267/Bluetooth-Oven-Grill-Kitchen-BBQ-Smoker2022-New-IP67-Waterproof-Wireless-BBQ-Thermometer-Steak-Cooking-Checker.htm
 
 - Description Service: 00001800-0000-1000-8000-00805f9b34fb
   - Device Name Characteristic:  00002a00-0000-1000-8000-00805f9b34fb
@@ -12,3 +13,9 @@ Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor
       - FF-FF-80-02-A8-02-0C
       - FF-FF-80-02-94-02-0C
       - FF-FF-80-02-94-02-0C (24, 27)
+      
+      short temp1 = (short)(bytes[2] | (bytes[3] << 8));
+      float temp1Celsius = temp1 / 10.0f - 40.0f;
+      
+      short temp2 = (short)(bytes[4] | (bytes[5] << 8));
+      float temp2Celsius = temp2 / 10.0f - 40.0f;
