@@ -14,8 +14,15 @@ Compatible with FMG SH253B Bluetooth BBQ Thermometer: https://www.fmg-tech.com/p
       - FF-FF-80-02-94-02-0C
       - FF-FF-80-02-94-02-0C (24, 27)
       
-      short temp1 = (short)(bytes[2] | (bytes[3] << 8));
-      float temp1Celsius = temp1 / 10.0f - 40.0f;
+- Reading Temperature Values (7 bytes data)
+  - Temperature 1 (Meat), byte 2 and 4:
+    ```
+    short temp1 = (short)(bytes[2] | (bytes[3] << 8));
+    float temp1Celsius = temp1 / 10.0f - 40.0f;
+    ```
       
-      short temp2 = (short)(bytes[4] | (bytes[5] << 8));
-      float temp2Celsius = temp2 / 10.0f - 40.0f;
+  - Temperature 2 (Grill), byte 4 and 5:
+    ```
+    short temp2 = (short)(bytes[4] | (bytes[5] << 8));
+    float temp2Celsius = temp2 / 10.0f - 40.0f;
+    ```
