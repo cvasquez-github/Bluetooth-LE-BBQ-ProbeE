@@ -9,7 +9,7 @@ Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor.
 
 - Make sure your Bluetooth adapter is Bluetooth v5+ compatible (LMP 9 or higher, LMP 11 recommended): https://support.microsoft.com/en-us/windows/what-bluetooth-version-is-on-my-pc-f5d4cff7-c00d-337b-a642-d2d23b082793
 
-  - If you don't have one, something like this cheap one may work: https://articulo.mercadolibre.cl/MLC-575881930-adaptador-transmisor-receptor-bluetooth-50-usb-notebook-pc-_JM
+  - If you don't have one, something like this cheap usb dongle may work: https://articulo.mercadolibre.cl/MLC-575881930-adaptador-transmisor-receptor-bluetooth-50-usb-notebook-pc-_JM
 
 ![alt text](https://raw.githubusercontent.com/cvasquez-github/Bluetooth-LE-BBQ-ProbeE/main/bbq-app-ui.png)
 
