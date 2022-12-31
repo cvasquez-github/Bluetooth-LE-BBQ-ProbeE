@@ -11,7 +11,7 @@ Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor.
 
   - If you don't have one, something like this cheap usb dongle may work: https://articulo.mercadolibre.cl/MLC-575881930-adaptador-transmisor-receptor-bluetooth-50-usb-notebook-pc-_JM
 
-![alt text](https://raw.githubusercontent.com/cvasquez-github/Bluetooth-LE-BBQ-ProbeE/main/bbq-app-ui.png)
+![alt text](https://raw.githubusercontent.com/cvasquez-github/Bluetooth-LE-BBQ-ProbeE/main/bbq-bt-app.png)
 
 - Description Service: 00001800-0000-1000-8000-00805f9b34fb
   - Device Name Characteristic:  00002a00-0000-1000-8000-00805f9b34fb
