@@ -1,7 +1,8 @@
 # Bluetooth-LE-BBQ-ProbeE
 Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor.
 
-- Compatible with FMG SH253B Bluetooth BBQ Thermometer: https://www.fmg-tech.com/pid18124267/Bluetooth-Oven-Grill-Kitchen-BBQ-Smoker2022-New-IP67-Waterproof-Wireless-BBQ-Thermometer-Steak-Cooking-Checker.htm
+- Compatible with FMG SH253B Bluetooth BBQ Thermometer: https://www.fmg-tech.com/pid18124267/Bluetooth-Oven-Grill-Kitchen-BBQ-Smoker2022-New-IP67-Waterproof-Wireless-BBQ-Thermometer-Steak-Cooking-Checker.htm. 
+- Available at Mercado Libre: https://articulo.mercadolibre.cl/MLC-559743013-termometro-bluetooth-con-app-para-asado-carne-horno-parrilla-_JM#position=41&search_layout=stack&type=item&tracking_id=632057ea-efe6-4621-b7d1-b8afca1f168e
 
 - Make sure your Bluetooth adapter is Bluetooth v5+ compatible (LMP 9 or higher, LMP 11 recommended): https://support.microsoft.com/en-us/windows/what-bluetooth-version-is-on-my-pc-f5d4cff7-c00d-337b-a642-d2d23b082793
 
