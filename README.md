@@ -2,6 +2,8 @@
 Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor.
 Compatible with FMG SH253B Bluetooth BBQ Thermometer: https://www.fmg-tech.com/pid18124267/Bluetooth-Oven-Grill-Kitchen-BBQ-Smoker2022-New-IP67-Waterproof-Wireless-BBQ-Thermometer-Steak-Cooking-Checker.htm
 
+![alt text](https://raw.githubusercontent.com/cvasquez-github/Bluetooth-LE-BBQ-ProbeE/main/bbq-app.png)
+
 - Description Service: 00001800-0000-1000-8000-00805f9b34fb
   - Device Name Characteristic:  00002a00-0000-1000-8000-00805f9b34fb
     - Read Property: BBQ ProbeE 26012
