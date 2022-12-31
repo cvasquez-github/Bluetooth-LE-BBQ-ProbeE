@@ -18,7 +18,7 @@ Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor.
     - Has Notify Property, example data: FF-FF-80-02-94-02-0C
       
 - Reading Temperature Values (7 bytes data)
-  - Temperature 1 (Meat), byte 2 and 4:
+  - Temperature 1 (Meat), byte 2 and 3:
     ```
     short temp1 = (short)(bytes[2] | (bytes[3] << 8));
     float temp1Celsius = temp1 / 10.0f - 40.0f;
