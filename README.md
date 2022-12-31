@@ -18,9 +18,9 @@ Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor.
 
 - Data Service: 0000fb00-0000-1000-8000-00805f9b34fb
   - Temperature Value Characteristic: 0000fb02-0000-1000-8000-00805f9b34fb
-    - Has Notify Property, example data: FF-FF-80-02-94-02-0C
+    - Has Notify Property
       
-- Reading Temperature Values (7 bytes data)
+- Reading Temperature Values from the Notify message (7 bytes data, example : FF-FF-80-02-94-02-0C)
   - Temperature 1 (Meat), byte 2 and 3:
     ```
     short temp1 = (short)(bytes[2] | (bytes[3] << 8));
