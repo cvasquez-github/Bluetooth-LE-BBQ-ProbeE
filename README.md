@@ -13,6 +13,9 @@ Reading and parsing a BBQ ProbeE Bluetooth Low Energy Temperature sensor.
 
 ![alt text](https://raw.githubusercontent.com/cvasquez-github/Bluetooth-LE-BBQ-ProbeE/main/bbq-bt-app.png)
 
+# Bluetooth LE Services and Characteristics
+BLE Service and Characteristics to read data from the SH253B thermometer:
+ 
 - Description Service: 00001800-0000-1000-8000-00805f9b34fb
   - Device Name Characteristic:  00002a00-0000-1000-8000-00805f9b34fb
     - Read Property: BBQ ProbeE 26012
