@@ -11,10 +11,7 @@ Compatible with FMG SH253B Bluetooth BBQ Thermometer: https://www.fmg-tech.com/p
 
 - Data Service: 0000fb00-0000-1000-8000-00805f9b34fb
   - Temperature Value Characteristic: 0000fb02-0000-1000-8000-00805f9b34fb
-    - Notify Property: FF-FF-80-02-94-02-0C
-      - FF-FF-80-02-A8-02-0C
-      - FF-FF-80-02-94-02-0C
-      - FF-FF-80-02-94-02-0C (24, 27)
+    - Has Notify Property, example data: FF-FF-80-02-94-02-0C
       
 - Reading Temperature Values (7 bytes data)
   - Temperature 1 (Meat), byte 2 and 4:
